@@ -13,12 +13,20 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
+    <nav className="bg-rose-300 p-3">
       <div className="text-2xl md:hidden" onClick={() => setOpen(!open)}>
-        {open === true ? <AiOutlineClose></AiOutlineClose> : <HiMenuAlt1></HiMenuAlt1>}
-        
+        {open === true ? (
+          <AiOutlineClose></AiOutlineClose>
+        ) : (
+          <HiMenuAlt1></HiMenuAlt1>
+        )}
       </div>
-      <ul className="md:flex">
+      <ul
+        className={`md:flex duration-1000 absolute md:static
+      ${
+        open ? "top-10" : "-top-60"
+      } bg-rose-300 px-6 shadow-lg md:shadow-none rounded-lg py-2`}
+      >
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}

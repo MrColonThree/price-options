@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Membership",
+    "features": [
+      "Access to gym equipment",
+      "Unlimited cardio sessions",
+      "Locker access",
+      "Weekday access only"
+    ],
+    "price": 30.00
+  },
+  {
+    "id": 2,
+    "name": "Silver Membership",
+    "features": [
+      "Access to gym equipment",
+      "Unlimited cardio sessions",
+      "Locker access",
+      "7-day access",
+      "Group fitness classes"
+    ],
+    "price": 45.00
+  },
+  {
+    "id": 3,
+    "name": "Gold Membership",
+    "features": [
+      "Access to gym equipment",
+      "Unlimited cardio sessions",
+      "Locker access",
+      "7-day access",
+      "Group fitness classes",
+      "Personal training sessions (2 per month)"
+    ],
+    "price": 60.00
+  },
+  {
+    "id": 4,
+    "name": "Platinum Membership",
+    "features": [
+      "Access to gym equipment",
+      "Unlimited cardio sessions",
+      "Locker access",
+      "24/7 access",
+      "Group fitness classes",
+      "Personal training sessions (4 per month)",
+      "Sauna and spa access"
+    ],
+    "price": 75.00
+  }
+]
